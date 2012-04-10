@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16C943381533D77A00091C57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C943371533D77A00091C57 /* UIKit.framework */; };
+		16C9433A1533D77A00091C57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C943391533D77A00091C57 /* Foundation.framework */; };
+		16C9433C1533D77A00091C57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C9433B1533D77A00091C57 /* CoreGraphics.framework */; };
+		16C943421533D77A00091C57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16C943401533D77A00091C57 /* InfoPlist.strings */; };
+		16C943441533D77A00091C57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C943431533D77A00091C57 /* main.m */; };
+		16C943481533D77A00091C57 /* cn_edu_nju_seAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C943471533D77A00091C57 /* cn_edu_nju_seAppDelegate.m */; };
+		16C9434B1533D77A00091C57 /* cn_edu_nju_seViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C9434A1533D77A00091C57 /* cn_edu_nju_seViewController.m */; };
+		16C9434E1533D77A00091C57 /* cn_edu_nju_seViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16C9434C1533D77A00091C57 /* cn_edu_nju_seViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16C943331533D77A00091C57 /* WaterAuthority.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterAuthority.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C943371533D77A00091C57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16C943391533D77A00091C57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16C9433B1533D77A00091C57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16C9433F1533D77A00091C57 /* WaterAuthority-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaterAuthority-Info.plist"; sourceTree = "<group>"; };
+		16C943411533D77A00091C57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16C943431533D77A00091C57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16C943451533D77A00091C57 /* WaterAuthority-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaterAuthority-Prefix.pch"; sourceTree = "<group>"; };
+		16C943461533D77A00091C57 /* cn_edu_nju_seAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cn_edu_nju_seAppDelegate.h; sourceTree = "<group>"; };
+		16C943471533D77A00091C57 /* cn_edu_nju_seAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cn_edu_nju_seAppDelegate.m; sourceTree = "<group>"; };
+		16C943491533D77A00091C57 /* cn_edu_nju_seViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cn_edu_nju_seViewController.h; sourceTree = "<group>"; };
+		16C9434A1533D77A00091C57 /* cn_edu_nju_seViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cn_edu_nju_seViewController.m; sourceTree = "<group>"; };
+		16C9434D1533D77A00091C57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/cn_edu_nju_seViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16C943301533D77A00091C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C943381533D77A00091C57 /* UIKit.framework in Frameworks */,
+				16C9433A1533D77A00091C57 /* Foundation.framework in Frameworks */,
+				16C9433C1533D77A00091C57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C943281533D77900091C57 = {
+			isa = PBXGroup;
+			children = (
+				16C9433D1533D77A00091C57 /* WaterAuthority */,
+				16C943361533D77A00091C57 /* Frameworks */,
+				16C943341533D77A00091C57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16C943341533D77A00091C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C943331533D77A00091C57 /* WaterAuthority.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16C943361533D77A00091C57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16C943371533D77A00091C57 /* UIKit.framework */,
+				16C943391533D77A00091C57 /* Foundation.framework */,
+				16C9433B1533D77A00091C57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16C9433D1533D77A00091C57 /* WaterAuthority */ = {
+			isa = PBXGroup;
+			children = (
+				16C943551533D81800091C57 /* upload */,
+				16C943541533D7D400091C57 /* controller */,
+				16C943461533D77A00091C57 /* cn_edu_nju_seAppDelegate.h */,
+				16C943471533D77A00091C57 /* cn_edu_nju_seAppDelegate.m */,
+				16C9434C1533D77A00091C57 /* cn_edu_nju_seViewController.xib */,
+				16C9433E1533D77A00091C57 /* Supporting Files */,
+			);
+			path = WaterAuthority;
+			sourceTree = "<group>";
+		};
+		16C9433E1533D77A00091C57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C9433F1533D77A00091C57 /* WaterAuthority-Info.plist */,
+				16C943401533D77A00091C57 /* InfoPlist.strings */,
+				16C943431533D77A00091C57 /* main.m */,
+				16C943451533D77A00091C57 /* WaterAuthority-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16C943541533D7D400091C57 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				16C943491533D77A00091C57 /* cn_edu_nju_seViewController.h */,
+				16C9434A1533D77A00091C57 /* cn_edu_nju_seViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		16C943551533D81800091C57 /* upload */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = upload;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16C943321533D77A00091C57 /* WaterAuthority */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C943511533D77A00091C57 /* Build configuration list for PBXNativeTarget "WaterAuthority" */;
+			buildPhases = (
+				16C9432F1533D77A00091C57 /* Sources */,
+				16C943301533D77A00091C57 /* Frameworks */,
+				16C943311533D77A00091C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterAuthority;
+			productName = WaterAuthority;
+			productReference = 16C943331533D77A00091C57 /* WaterAuthority.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16C9432A1533D77900091C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = nju.software;
+			};
+			buildConfigurationList = 16C9432D1533D77900091C57 /* Build configuration list for PBXProject "WaterAuthority" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16C943281533D77900091C57;
+			productRefGroup = 16C943341533D77A00091C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16C943321533D77A00091C57 /* WaterAuthority */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16C943311533D77A00091C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C943421533D77A00091C57 /* InfoPlist.strings in Resources */,
+				16C9434E1533D77A00091C57 /* cn_edu_nju_seViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C9432F1533D77A00091C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C943441533D77A00091C57 /* main.m in Sources */,
+				16C943481533D77A00091C57 /* cn_edu_nju_seAppDelegate.m in Sources */,
+				16C9434B1533D77A00091C57 /* cn_edu_nju_seViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16C943401533D77A00091C57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C943411533D77A00091C57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16C9434C1533D77A00091C57 /* cn_edu_nju_seViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C9434D1533D77A00091C57 /* en */,
+			);
+			name = cn_edu_nju_seViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16C9434F1533D77A00091C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16C943501533D77A00091C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16C943521533D77A00091C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaterAuthority/WaterAuthority-Prefix.pch";
+				INFOPLIST_FILE = "WaterAuthority/WaterAuthority-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16C943531533D77A00091C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaterAuthority/WaterAuthority-Prefix.pch";
+				INFOPLIST_FILE = "WaterAuthority/WaterAuthority-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C9432D1533D77900091C57 /* Build configuration list for PBXProject "WaterAuthority" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C9434F1533D77A00091C57 /* Debug */,
+				16C943501533D77A00091C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C943511533D77A00091C57 /* Build configuration list for PBXNativeTarget "WaterAuthority" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C943521533D77A00091C57 /* Debug */,
+				16C943531533D77A00091C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16C9432A1533D77900091C57 /* Project object */;
+}
